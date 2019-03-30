@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "g3log-holo", "g3log-holo.vcxproj", "{B532732C-A590-4A77-91DE-218F09A31C17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ML = Debug|ML
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ML = Release|ML
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B532732C-A590-4A77-91DE-218F09A31C17}.Debug|ML.ActiveCfg = Debug|ML
+		{B532732C-A590-4A77-91DE-218F09A31C17}.Debug|ML.Build.0 = Debug|ML
+		{B532732C-A590-4A77-91DE-218F09A31C17}.Debug|x64.ActiveCfg = Debug|x64
+		{B532732C-A590-4A77-91DE-218F09A31C17}.Debug|x64.Build.0 = Debug|x64
+		{B532732C-A590-4A77-91DE-218F09A31C17}.Debug|x86.ActiveCfg = Debug|Win32
+		{B532732C-A590-4A77-91DE-218F09A31C17}.Debug|x86.Build.0 = Debug|Win32
+		{B532732C-A590-4A77-91DE-218F09A31C17}.Release|ML.ActiveCfg = Release|ML
+		{B532732C-A590-4A77-91DE-218F09A31C17}.Release|ML.Build.0 = Release|ML
+		{B532732C-A590-4A77-91DE-218F09A31C17}.Release|x64.ActiveCfg = Release|x64
+		{B532732C-A590-4A77-91DE-218F09A31C17}.Release|x64.Build.0 = Release|x64
+		{B532732C-A590-4A77-91DE-218F09A31C17}.Release|x86.ActiveCfg = Release|Win32
+		{B532732C-A590-4A77-91DE-218F09A31C17}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BE8BBB6-FBAC-4105-BA16-A3EC2EE42E0F}
+	EndGlobalSection
+EndGlobal

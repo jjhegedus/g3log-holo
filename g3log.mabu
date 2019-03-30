@@ -1,0 +1,33 @@
+INCS = ../ \
+  C:\Projects\third-party\g3log\include \
+  C:\Projects\third-party\g3log\src
+
+KIND = static
+OPTIONS = \
+	exceptions/on \
+	standard-c++/14 \
+	warn/on
+
+SRCS = \
+	C:\Projects\third-party\g3log\src\filesink.cpp \
+	C:\Projects\third-party\g3log\src\g3log.cpp \
+	C:\Projects\third-party\g3log\src\logcapture.cpp \
+  C:\Projects\third-party\g3log\src\loglevels.cpp \
+  C:\Projects\third-party\g3log\src\logmessage.cpp \
+  C:\Projects\third-party\g3log\src\logworker.cpp \
+  C:\Projects\third-party\g3log\src\time.cpp \
+
+USES = \
+	stdc++ \
+  crash_handler
+
+DEFS.win = \
+  ML \
+	ML_WINDOWS \
+	USE_GLFW=1
+
+DEFS.lumin = \
+  ML \
+	ML_DEVICE \
+	USE_GLFW=0
+
