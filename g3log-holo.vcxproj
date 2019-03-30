@@ -63,9 +63,17 @@
     <ProjectGuid>{B532732C-A590-4A77-91DE-218F09A31C17}</ProjectGuid>
     <Keyword>StaticLibrary</Keyword>
     <RootNamespace>g3logholo</RootNamespace>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <AppContainerApplication>true</AppContainerApplication>
+    <ApplicationType>Windows Store</ApplicationType>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.17134.0</WindowsTargetPlatformMinVersion>
+    <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
     <MLProjectFile>g3log.package</MLProjectFile>
     <MLProjectKind>static</MLProjectKind>
+    <MLMfitExtraArgs>
+    </MLMfitExtraArgs>
   </PropertyGroup>
   <ItemGroup>
     <ProjectCapability Include="MLProject" />
@@ -239,7 +247,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <CompileAsWinRT>false</CompileAsWinRT>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Projects\Git\22ndtech\c++\g3log\src;C:\Projects\Git\22ndtech\c++\g3log\include;$(ProjectDir);$(GeneratedFilesDir);$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Projects\third-party\g3log\include;C:\Projects\third-party\g3log\src;$(ProjectDir);$(GeneratedFilesDir);$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>_UNICODE;UNICODE;_WINDOWS;WIN32;_DEBUG;%(PreprocessorDefinitions);HOLO</PreprocessorDefinitions>
       <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>

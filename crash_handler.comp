@@ -1,5 +1,6 @@
 SRCS.win = \
-    C:\Projects\third-party\g3log\src\crashhandler_windows.cpp
+    C:\Projects\third-party\g3log\src\crashhandler_windows.cpp \
+    C:\Projects\third-party\g3log\src\stacktrace_windows.cpp \
 
 SRCS.linux = \
   C:\Projects\third-party\g3log\src\crashhandler_unix.cpp
